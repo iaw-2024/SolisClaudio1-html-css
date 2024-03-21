@@ -5,43 +5,43 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 <body>
+    <div class="centrado">
     <h1>Registration Form</h1>
+        <form>
+            <label class="etiqueta" for="name">Nombre Completo:</label>
+            <input class=cuadroInput type="text" id="name" name="name" required>
+            
+            <label class="etiqueta" for="email">Correo Electronico:</label>
+            <input class=cuadroInput type="email" id="email" name="email" required>
+            
+            <label  class="etiqueta" for="telefono">Telefono:</label>
+            <input  class=cuadroInput type="tel" id="telefono" name="telefono" required>
+
+            <label class="etiqueta" for="ocupacion">Ocupación</label>
+            <select name="Ocupaciones" id="ocupacion">
+                <option value="estudiante">Estudiante</option>
+                <option value="profesional">Profesional</option>
+                <option value="emprendedor">Emprendedor</option>
+                <option value="trabajadorIndependiente">Trabajador Independiente</option>
+                <option value="empleadoDeOficina">Empleado de Oficina</option>
+                <option value="docente">Docente</option>   
+                <option value="jubilado">Jubilado</option>
+            </select>
+            <label class="etiqueta" for="difusion">¿Cómo se entero del evento?</label>
+                <input type="checkbox" id="difusion" name="difusion" value="redesSociales">Redes Sociales</input>
+                <input type="checkbox" id="difusion" name="difusion" value="correoElectronico">Correo Electronico</input>
+                <input type="checkbox" id="difusion" name="difusion" value="recomendacion">Recomendación</input>
+                <input type="checkbox" id="difusion" name="difusion" value="prensa">Prensa</input>
+                <input type="checkbox" id="difusion" name="difusion" value="radio">Radio</input>
+                <input type="checkbox" id="difusion" name="difusion" value="tv">TV</input>
+                <input type="checkbox" id="difusion" name="difusion" value="otro">Otro</input>
+            <label class="etiqueta" for="comentariosAdicionales">Comentarios adicionales</label>
+            <textarea class=="textAreaComentarios" name="comentariosAdicionales" id="comentariosAdicionales" ></textarea>
+            <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
     
-    <form>
-        <label for="name">Nombre Completo:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Correo Electronico:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="telefono">Telefono:</label>
-        <input type="tel" id="telefono" name="telefono" required>
-
-        <label for="ocupacion">Ocupación</label>
-        <select name="Ocupaciones" id="ocupacion">
-            <option value="estudiante">Estudiante</option>
-            <option value="profesional">Profesional</option>
-            <option value="emprendedor">Emprendedor</option>
-            <option value="trabajadorIndependiente">Trabajador Independiente</option>
-            <option value="empleadoDeOficina">Empleado de Oficina</option>
-            <option value="docente">Docente</option>   
-            <option value="jubilado">Jubilado</option>
-        </select>
-        <label for="difusion">¿Cómo se entero del evento?</label>
-            <input type="checkbox" id="difusion" name="difusion" value="redesSociales">Redes Sociales</input>
-            <input type="checkbox" id="difusion" name="difusion" value="correoElectronico">Correo Electronico</input>
-            <input type="checkbox" id="difusion" name="difusion" value="recomendacion">Recomendación</input>
-            <input type="checkbox" id="difusion" name="difusion" value="prensa">Prensa</input>
-            <input type="checkbox" id="difusion" name="difusion" value="radio">Radio</input>
-            <input type="checkbox" id="difusion" name="difusion" value="tv">TV</input>
-            <input type="checkbox" id="difusion" name="difusion" value="otro">Otro</input>
-        <label for="comentariosAdicionales">Comentarios adicionales</label>
-        <textarea name="comentariosAdicionales" id="comentariosAdicionales" cols="30" rows="10"></textarea>
-
-        <input type="submit" value="Submit">
-    </form>
 </body>
 </html>
