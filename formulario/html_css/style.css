@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    width: 30%;
+    padding: 0;
+    display: block; 
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.etiqueta {
+    font-size: 1em;
+    font-weight: 400;
+    color: #333;
+    display: block;
+    margin: 10px 0 5px 0;
+}
