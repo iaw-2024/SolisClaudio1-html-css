@@ -20,7 +20,6 @@ div.receta {
     display: block;
     width: 60%;
     border-radius: 1rem;
-     
 }
 
 
@@ -32,7 +31,8 @@ div.receta {
 }
 
 img.imagenComida{
-    width: 20rem;
+    width: 50%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
@@ -40,6 +40,7 @@ img.imagenComida{
 .receta .descripcionReceta {
     text-align: justify;
     margin: 0 3rem ;
+    font-size: 1.4rem;
 }
 
 .receta .categoria{
@@ -49,19 +50,20 @@ img.imagenComida{
     text-align: center;
 }
 
-
 .receta h2{
     font-size: 1.3rem;
-    font-weight: 700;
-    margin-left: 5rem;
+    font-weight: 10     00;
+    margin-left: 3.1rem;
     margin-bottom: 0rem;
+    color:  darkslategray
 }
 
 .receta ul{
-    list-style-type: circle;
-    margin-left: 15rem;
+    list-style-type: square;
+    margin-left: 10rem;
     margin-top: 0;
     padding: 0;
-    font-weight: 250;
-    font-size: medium;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
 }
