@@ -47,7 +47,7 @@ div.formulario {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color : darkslategrey;
+    color : darkslategray;
 }
 
 .formulario .etiqueta {
@@ -73,3 +73,40 @@ div.formulario {
     border-radius: 0.5rem;
     border: 1px solid rgb(197, 158, 110);
 }
+
+.formulario button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid darkslategray;
+    background-color: blanchedalmond;
+    color: darkslategray;
+    font-weight: 700;
+    cursor : pointer;   
+}
+
+/* Estilo base para el elemento select */
+.formulario select {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 8px 12px; /* Espaciado interno */
+    border: 1px solid darkslategray; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    width: auto; /* Ancho del select */
+    background-color: blanchedalmond;
+    color: darkslategray;
+    font-weight: 700;
+}
+  
+  /* Estilo para el hover */
+  .formulario select:hover {
+    border-color: #aaa; /* Cambio de color del borde al pasar el ratón */
+  }
+  
+  /* Estilo para el focus */
+  .formulario select:focus {
+    outline: none; /* Quita el contorno por defecto al enfocar */
+    border-color: #4CAF50; /* Cambio de color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5); /* Sombra al enfocar */
+  }
